@@ -27,7 +27,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 body {
@@ -167,5 +166,11 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+}
+
+header,
+nav,
+footer {
+    width: 100%;
 }
 
