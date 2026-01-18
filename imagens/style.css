@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Imperial+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+    font-family: Security;
+    src: url("fontes/Security\ Company.ttf") format("truetype");
+    font-weight: normal;
+}
+
+:root {
+    --cor0:#24D6D6;
+    --cor1:#35A0A0;
+    --cor2:#01F2F4;
+    --cor3:#3D7A7A;
+    --cor4:#324B4B;
+    --cor5:#2B3333;
+    --cor6:#01E7F4;
+    --cor7:#ebe5c5;
+
+    --fonte-destaque: "Bebas Neue", "Cursive";
+    --fonte-security: "Security", "cursive";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, var(--cor6), var(--cor3));
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fonte-security);
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p {
+    color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+
+nav {
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+
+}
+
+nav a:hover {
+
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+}
