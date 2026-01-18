@@ -153,6 +153,8 @@ source {
 }
 
 img {
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: auto;
     padding-bottom: 30px;
