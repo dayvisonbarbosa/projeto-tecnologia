@@ -17,6 +17,7 @@
     --cor5:#2B3333;
     --cor6:#01E7F4;
     --cor7:#ebe5c5;
+    --cor8:#F4170C;
 
     --fonte-destaque: "Bebas Neue", "Cursive";
     --fonte-security: "Security", "cursive";
@@ -83,11 +84,10 @@ nav a:hover {
 main {
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
     padding: 20px;
-    margin-bottom: 20px;
+    margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: white;
@@ -95,11 +95,13 @@ main {
 
 main h1 {
     color: var(--cor5);
+    font-weight: normal;
     font-size: 2em;
     font-family: var(--fonte-security);
 }
 
 main h2 {
+    margin-bottom: 10px;
     color: var(--cor4);
     font-weight: normal;
     font-size: 1.5em;
@@ -108,8 +110,59 @@ main h2 {
     font-family: var(--fonte-security);
 }
 
+main p {
+    padding-bottom: 30px;
+    margin: 15px, 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor8);
+    font-weight: bold;
+}
+
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-type: "\1F47E\00A0\00A0";
+    list-style-position: inside;
+    columns: 2;
+}
+
+source {
+    max-width: 670px;
+    display: block;
+    margin: auto;
+}
+
 img {
     display: block;
     margin: auto;
-    padding: 30px;
+    padding-bottom: 30px;
 }
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
