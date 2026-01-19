@@ -53,7 +53,8 @@ header h1 {
 header > p {
     color: white;
     font-size: 1.2em;
-    max-width: 600px;
+    max-width: 1080px;
+    min-width: 300px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -82,8 +83,8 @@ nav a:hover {
 }
 
 main {
+    max-width: 1080px;
     min-width: 300px;
-    max-width: 1000px;
     padding: 20px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
